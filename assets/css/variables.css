@@ -1,0 +1,52 @@
+:root {
+  /* ---------- COLORS BRAND ---------- */
+  --color-primary: #3e9e83;
+  --color-secundary: #b7a593;
+
+  /* ---------- COLORS NEUTRALS ---------- */
+  --color-background: #ffffff;
+  --color-surface: #fbf8f6;
+  --color-border: #d8c9c0;
+
+  /* ---------- COLORS TYPOGRAPHY ---------- */
+  --color-text: #1f1f1f;
+  --color-text-muted: #777777;
+  --color-text-light: #ffffff;
+
+  /* ---------- COLORS FEEDBACK ---------- */
+  --color-success: #3c9f7d;
+  --color-error: #d34d4d;
+  --color-warning: #d78f2b;
+  --color-info: #5b8def;
+
+  /* ---------- TYPOGRAPHY ---------- */
+  --font-base: "Inter Tight", sans-serif;
+  --font-heading: "Playfair Display", serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 900;
+
+  --text-sm: 1.4rem;
+  --text-base: 1.6rem;
+  --text-lg: 1.8rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.4rem;
+  --text-3xl: 3.2rem;
+  --text-4xl: 7.2rem;
+
+  --line-height-base: 1.5;
+  --line-height-heading: 1.2;
+
+  /* ---------- SPACING ---------- */
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1.2rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2.4rem;
+  --spacing-xl: 3.2rem;
+
+  /* ---------- RADIUS ---------- */
+  --radius-xs: 0.8rem;
+  --radius-sm: 1.2rem;
+  --radius-md: 1.6rem;
+}
