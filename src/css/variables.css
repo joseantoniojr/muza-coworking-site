@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+:root{
+    /* ---------- COLORS ---------- */
+    /* GRAY SCALE */
+    --gray-0: #FFFFFF;
+    --gray-100: #F6F6F6;
+    --gray-200: #E4E4E4;
+    --gray-300: #D1D1D1;
+    --gray-400: #B0B0B0;
+    --gray-500: #777777;
+    --gray-600: #6D6D6D;
+    --gray-700: #555555;
+    --gray-800: #3B3B3B;
+    --gray-900: #1F1F1F;
+
+    /* VARIAVEIS SEMÂNTICAS */
+    --color-primary: var(--gray-900);
+    --color-background: var(--gray-0);
+
+    --text-color-base: var(--gray-700);
+    --text-color-title: var(--gray-900);
+    --text-color-subtitle: var(--gray-800);
+    --text-color-muted: var(--gray-400);
+    --text-color-light: var(--gray-0);
+
+    --btn-primary-bg: var(--gray-900);
+    --btn-secondary-bg: var(--gray-0);
+
+    --color-border: var(--gray-300);
+
+    --card-background: var(--gray-100);
+
+    /* ---------- TYPOGRAPHY ---------- */
+    /* FONTS */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Black Mango', sans-serif;
+
+    /* TAMANHOS DE TEXTO */
+    --font-size-xs: clamp(1.2rem, 1.3vw, 1.4rem);
+    --font-size-sm: clamp(1.4rem, 1.5vw, 1.6rem);
+    --font-size-md: clamp(1.6rem, 1.7vw, 1.8rem);
+    --font-size-lg: clamp(1.8rem, 2vw, 2rem);
+    --font-size-xl: clamp(2rem, 2.2vw, 2.4rem);
+    --font-size-xxl: clamp(3.2rem, 4vw, 4rem);
+    --font-size-display: clamp(5rem, 6vw, 7.2rem);
+
+    /* TAMANHOS CORRESPONDETES */
+    --font-size-base: var(--font-size-sm);
+    --font-size-title: var(--font-size-display);
+    --font-size-heading-2: var(--font-size-xxl);
+    --font-size-heading-3: var(--font-size-xl);
+    --font-size-heading-4: var(--font-size-lg);
+    --font-size-btn: var(--font-size-md);
+    --font-size-label: var(--font-size-xs);
+
+    /* ESPESSURA DE FONT */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* ALTURA DE LINHA */
+    --line-height-tight: 1.2;
+    --line-height-base: 1.5;
+
+    /* ---------- SPACING ---------- */
+    --space-xxs: 0.4rem;
+    --space-xs: 0.8rem;
+    --space-sm: 1.2rem;
+    --space-md: 1.6rem;
+    --space-lg: 2.4rem;
+    --space-xl: 3.2rem;
+    --space-xxl: 4.8rem;
+
+    /* ---------- BORDER RADIUS ---------- */
+    --border-radius-sm: 0.8rem;
+    --border-radius-md: 1.2rem;
+    --border-radius-lg: 4rem;
+    --border-radius-full: 100%;
+    --border-width: 1px;
+    --border-color: var(--color-border);
+
+    /* ---------- WIDTH AND CONTAINERS ---------- */
+    --container-max-width: 118rem;
+    --container-padding: var(--space-md);
+}
