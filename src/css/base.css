@@ -9,6 +9,10 @@ body {
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
 }
 
 h1,

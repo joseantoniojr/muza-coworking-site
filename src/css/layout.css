@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+header,
+main,
+section,
+footer {
+    width: 100%;
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin-inline: auto;
+    padding-inline: var(--container-padding);
+}
+
+.header {
+    padding-block: var(--space-lg);
+}
+
+.flex {
+    display: flex;
+    gap: var(--space-xl);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
