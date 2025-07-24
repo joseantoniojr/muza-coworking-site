@@ -39,7 +39,9 @@ svg{
     height: auto;
 }
 
-ul, ol{
+ul, 
+ol,
+summary{
     list-style: none;
 }
 

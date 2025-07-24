@@ -14,6 +14,8 @@
     --gray-800: #3B3B3B;
     --gray-900: #1F1F1F;
 
+    --green: #3E9E83;
+
     /* VARIAVEIS SEMÂNTICAS */
     --color-primary: var(--gray-900);
     --color-background: var(--gray-0);
@@ -30,6 +32,8 @@
     --color-border: var(--gray-300);
 
     --card-background: var(--gray-100);
+
+    --color-check: var(--green);
 
     /* ---------- TYPOGRAPHY ---------- */
     /* FONTS */
