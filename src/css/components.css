@@ -148,6 +148,11 @@
   border-radius: var(--border-radius-lg);
   border: var(--border-width) solid var(--border-color);
   flex: 1 0 calc(clamp(35rem, 50vw, 45rem) - 2.4rem);
+  transition: all 0.3s linear;
+}
+
+.about-card:hover {
+  box-shadow: var(--box-shadow);
 }
 
 .about-card__icon {
@@ -200,6 +205,16 @@
   border: var(--border-width) solid var(--border-color);
   border-radius: var(--border-radius-lg);
   padding: var(--space-lg);
+  transition: all 0.3s linear;
+}
+
+.features-card__item:hover {
+  background-color: var(--gray-200);
+  box-shadow: var(--box-shadow);
+}
+
+.features-card__item:hover .features-card__icon {
+  background-color: var(--gray-400);
 }
 
 .features-card__icon {
@@ -207,6 +222,7 @@
   background-color: var(--gray-300);
   border-radius: var(--border-radius-lg);
   padding: var(--space-md);
+  transition: all 0.3s linear;
 }
 
 .features-card__icon path {
@@ -434,6 +450,11 @@
   padding: var(--space-lg);
   border: var(--border-width) solid var(--border-color);
   border-radius: var(--border-radius-md);
+  transition: all 0.3s linear;
+}
+
+.plans-options__group:hover {
+  box-shadow: var(--box-shadow);
 }
 
 .plans-options__list {
