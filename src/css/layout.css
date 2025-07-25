@@ -4,23 +4,237 @@ header,
 main,
 section,
 footer {
-    width: 100%;
+  width: 100%;
+}
+
+section {
+  scroll-margin-top: var(--space-4xl);
 }
 
 .container {
-    max-width: var(--container-max-width);
-    margin-inline: auto;
-    padding-inline: var(--container-padding);
+  max-width: var(--container-max-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
 }
 
 .header {
-    padding-block: var(--space-lg);
+  position: fixed;
+  top: 0;
+  padding-block: var(--space-lg);
+  background-color: var(--color-background);
+  z-index: 999;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
 
 .flex {
-    display: flex;
-    gap: var(--space-xl);
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4xl);
+}
+
+/* HERO */
+.hero {
+  padding-top: var(--space-4xl);
+}
+
+.hero__container,
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__container {
+  height: 60vh;
+  gap: var(--space-3xl);
+}
+
+.hero__content {
+  gap: var(--space-lg);
+}
+
+.hero__title {
+  width: 70%;
+  text-align: center;
+}
+
+.hero__description {
+  width: 45%;
+  text-align: center;
+}
+
+.hero__actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+
+/* ABOUT */
+.section__heading,
+.about__container,
+.about__container-content,
+.about__text,
+.about__paragraph,
+.features__container,
+.space__container,
+.space__tabs,
+.steps__container,
+.steps__cta,
+.plans__container,
+.plans__tabs,
+.plans__cta,
+.testimonials__container,
+.testimonials__content,
+.faq__container,
+.contact__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__container,
+.about__container-content,
+.plans__container,
+.testimonials__container,
+.features__container,
+.space__container,
+.steps__container,
+.faq__container,
+.contact__container {
+  gap: var(--space-3xl);
+}
+
+.about__content,
+.plans__tabs {
+  display: flex;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.about__text {
+  gap: var(--space-xl);
+  flex: 1 0 calc(clamp(35rem, 50vw, 45rem) - 2.4rem);
+  justify-content: space-between;
+}
+
+.about__image{
+  flex: 1 0 calc(clamp(35rem, 50vw, 45rem) - 2.4rem);
+}
+
+.about__paragraph {
+  gap: var(--space-md);
+}
+
+/* FEATURES */
+.section__heading {
+  gap: var(--space-md);
+}
+
+/* SPACE */
+.nav__tabs {
+  align-self: center;
+}
+
+/* STEPS */
+.space__tabs, 
+.steps__cta,
+.plans__cta {
+  gap: var(--space-md);
+  align-items: center;
+}
+
+.steps__obs,
+.plans__obs {
+  width: 50%;
+  text-align: center;
+}
+
+/* TESTIMONIALS */
+.testimonials__content {
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+/* FOOTRE */
+.footer {
+  border-top: var(--border-width) solid var(--border-color);
+  padding-block: var(--space-xxl);
+  margin-top: var(--space-3xl);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-xl);
+}
+
+.footer__header,
+.nav__footer,
+.footer__info {
+  flex: 1;
+}
+
+.footer__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-xl);
+}
+
+.nav__footer,
+.footer__info,
+.footer__links {
+  display: flex;
+  flex-direction: column; 
+  gap: var(--space-lg);
+}
+
+.footer__subtitle {
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color-subtitle);
+}
+
+.nav__footer-list {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-xxl);
+}
+
+.nav__footer-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.nav__footer-group .nav__link {
+  color: var(--text-color-subtitle);
+  transition: all 0.3s linear;
+}
+
+.nav__footer-group li:hover .nav__link{
+  text-decoration:underline;
+}
+
+.footer__copy {
+  border-top: var(--border-width) solid var(--border-color);
+  margin-top: var(--space-xxl);
+  padding-top: var(--space-xxl);
+}
+
+.copyright {
+  font-size: var(--font-size-label);
+  text-align: center;
+  color: var(--text-color-muted);
 }

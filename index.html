@@ -22,17 +22,17 @@
             </a>
             <nav class="nav">
                 <ul class="nav__list flex">
-                    <li><a href="#" class="nav__link active">Home</a></li>
-                    <li><a href="#" class="nav__link">Muza</a></li>
-                    <li><a href="#" class="nav__link">Estúdio</a></li>
-                    <li><a href="#" class="nav__link">Aluguel</a></li>
-                    <li><a href="#" class="nav__link">Planos</a></li>
-                    <li><a href="#" class="nav__link">Contato</a></li>
+                    <li><a href="#home" class="nav__link active">Home</a></li>
+                    <li><a href="#muza" class="nav__link">Muza</a></li>
+                    <li><a href="#estudio" class="nav__link">Estúdio</a></li>
+                    <li><a href="#aluguel" class="nav__link">Aluguel</a></li>
+                    <li><a href="#planos" class="nav__link">Planos</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
                 </ul>
             </nav>
 
             <div class="social">
-                <a href="#" class="social__link">
+                <a href="https://www.instagram.com/muzacoworking" target="_blank" class="social__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <linearGradient id="instagramGradient" x1="0" y1="0" x2="1" y2="1">
@@ -51,7 +51,7 @@
                             d="M17.5098 5.5C18.0621 5.5 18.5098 5.94772 18.5098 6.5C18.5098 7.05228 18.0621 7.5 17.5098 7.5H17.5C16.9477 7.5 16.5 7.05228 16.5 6.5C16.5 5.94772 16.9477 5.5 17.5 5.5H17.5098Z" />
                     </svg>
                 </a>
-                <a href="#" class="social__link">
+                <a href="https://www.facebook.com/muzacoworking" target="_blank" class="social__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M13 7C13 6.46957 13.2109 5.96101 13.5859 5.58594C13.961 5.21087 14.4696 5 15 5H17V3H15C13.9391 3 12.922 3.42173 12.1719 4.17188C11.4217 4.92202 11 5.93913 11 7V10C11 10.5523 10.5523 11 10 11H8V13H10C10.5523 13 11 13.4477 11 14V21H13V14C13 13.4477 13.4477 13 14 13H16.2197L16.7197 11H14C13.4477 11 13 10.5523 13 10V7ZM15 9H18C18.3079 9 18.5986 9.14205 18.7881 9.38477C18.9775 9.62741 19.0443 9.94354 18.9697 10.2422L17.9697 14.2422C17.8584 14.6874 17.4589 15 17 15H15V22C15 22.5523 14.5523 23 14 23H10C9.44772 23 9 22.5523 9 22V15H7C6.44772 15 6 14.5523 6 14V10C6 9.44772 6.44772 9 7 9H9V7C9 5.4087 9.63259 3.88303 10.7578 2.75781C11.883 1.63259 13.4087 1 15 1H18C18.5523 1 19 1.44772 19 2V6C19 6.55228 18.5523 7 18 7H15V9Z" />
@@ -61,10 +61,10 @@
         </div>
     </header> <!-- Fim menu de navegação -->
 
-    <main> <!-- Conteúdo Principal -->
+    <main class="main"> <!-- Conteúdo Principal -->
 
-        <section class="hero"> <!-- HERO -->
-            <div class="container">
+        <section class="hero" id="home"> <!-- HERO -->
+            <div class="container hero__container">
                 <div class="hero__content">
                     <h1 class="hero__title">Seu talento merece <strong>espaço premium</strong></h1>
                     <p class="hero__description">Liberdade para profissionais autônomos com estrutura completa, ambiente
@@ -72,7 +72,7 @@
                         burocracias.</p>
                 </div>
                 <div class="hero__actions">
-                    <a href="#" class="hero__btn">
+                    <a href="https://wa.me/5522992698605" target="_blank" class="hero__btn">
                         <span class="btn btn--primary">Agendar visita</span>
                         <div class="btn__icon-wrapper btn__icon-wrapper--primary">
                             <svg class="btn__icon btn__icon--primary" width="24" height="24" viewBox="0 0 40 40"
@@ -104,85 +104,97 @@
             </div>
         </section> <!-- FIM HERO -->
 
-        <section class="about"> <!-- SOBRE -->
-            <div class="container">
-                <div class="about__heading">
-                    <h2>Conheça o Muza</h2>
+        <section class="about" id="muza"> <!-- SOBRE -->
+            <div class="container about__container">
+                <div class="section__heading">
+                    <h2 class="section__title">Conheça o Muza</h2>
                 </div>
-                <div class="about__content">
-                    <div class="about__text">
-                        <h3>Um novo conceito</h3>
-                        <p>O Muza é o primeiro coworking de beleza de Campos dos Goytacazes – e chegou para transformar
-                            a forma como profissionais da área vivem o dia a dia do trabalho. Com uma estrutura pensada
-                            nos mínimos detalhes, unimos sofisticação, praticidade e acolhimento em um só lugar. Aqui,
-                            cada detalhe foi criado para valorizar o seu talento.</p>
-
-                        <h3>Um espaço pensado para você</h3>
-                        <p>Um coworking de beleza é um espaço compartilhado que oferece estrutura completa para
-                            profissionais autônomos da estética e beleza atenderem seus clientes com liberdade,
-                            flexibilidade e conforto. Sem necessidade de vínculos fixos, contratos longos ou
-                            investimentos em um local próprio, cada profissional escolhe o tempo de uso e paga apenas
-                            pelo período utilizado. Um modelo moderno, inteligente e cada vez mais valorizado.</p>
-                    </div>
-                    <img src="./src/assets/images/img-section-about.png" alt="" draggable="false">
-                </div>
-                <div class="about__values">
-                    <div class="about-card">
-                        <div class="about-card__icon">
-                            <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M87.5 50C87.5 29.2893 70.7107 12.5 50 12.5C29.2893 12.5 12.5 29.2893 12.5 50C12.5 70.7106 29.2893 87.5 50 87.5C70.7107 87.5 87.5 70.7106 87.5 50ZM95.8334 50C95.8334 75.313 75.3131 95.8333 50 95.8333C24.687 95.8333 4.16669 75.313 4.16669 50C4.16669 24.6869 24.687 4.16663 50 4.16663C75.3131 4.16663 95.8334 24.6869 95.8334 50Z"
-                                    fill="black" />
-                                <path
-                                    d="M70.8333 50C70.8333 38.4941 61.5059 29.1667 50 29.1667C38.494 29.1667 29.1666 38.4941 29.1666 50C29.1666 61.506 38.494 70.8334 50 70.8334C61.5059 70.8334 70.8333 61.506 70.8333 50ZM79.1666 50C79.1666 66.1083 66.1083 79.1667 50 79.1667C33.8917 79.1667 20.8333 66.1083 20.8333 50C20.8333 33.8917 33.8917 20.8334 50 20.8334C66.1083 20.8334 79.1666 33.8917 79.1666 50Z"
-                                    fill="black" />
-                                <path
-                                    d="M54.1667 50C54.1667 47.6988 52.3012 45.8333 50 45.8333C47.6988 45.8333 45.8333 47.6988 45.8333 50C45.8333 52.3012 47.6988 54.1667 50 54.1667C52.3012 54.1667 54.1667 52.3012 54.1667 50ZM62.5 50C62.5 56.9036 56.9036 62.5 50 62.5C43.0964 62.5 37.5 56.9036 37.5 50C37.5 43.0964 43.0964 37.5 50 37.5C56.9036 37.5 62.5 43.0964 62.5 50Z"
-                                    fill="black" />
-                            </svg>
+                <div class="about__container-content">
+                    <div class="about__content">
+                        <div class="about__text">
+                            <div class="about__paragraph">
+                                <h3>Um novo conceito</h3>
+                                <p>O Muza é o primeiro coworking de beleza de Campos dos Goytacazes – e chegou para
+                                    transformar
+                                    a forma como profissionais da área vivem o dia a dia do trabalho. Com uma estrutura
+                                    pensada
+                                    nos mínimos detalhes, unimos sofisticação, praticidade e acolhimento em um só lugar.
+                                    Aqui,
+                                    cada detalhe foi criado para valorizar o seu talento.</p>
+                            </div>
+                            <div class="about__paragraph">
+                                <h3>Um espaço pensado para você</h3>
+                                <p>Um coworking de beleza é um espaço compartilhado que oferece estrutura completa para
+                                    profissionais autônomos da estética e beleza atenderem seus clientes com liberdade,
+                                    flexibilidade e conforto. Sem necessidade de vínculos fixos, contratos longos ou
+                                    investimentos em um local próprio, cada profissional escolhe o tempo de uso e paga
+                                    apenas
+                                    pelo período utilizado. Um modelo moderno, inteligente e cada vez mais valorizado.
+                                </p>
+                            </div>
                         </div>
-                        <div class="about-card__content">
-                            <h4 class="about-card__title">Nossa Missão</h4>
-                            <p class="about-card__text">Facilitar a vida de profissionais da beleza e estética,
-                                oferecendo liberdade, estrutura completa e um ambiente que inspira profissionalismo,
-                                conforto e pertencimento.</p>
-                        </div>
+                        <img src="./src/assets/images/img-section-about.png" alt="" class="about__image"
+                            draggable="false">
                     </div>
-                    <div class="about-card">
-                        <div class="about-card__icon">
-                            <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_339_1207)">
+                    <div class="about__values">
+                        <div class="about-card">
+                            <div class="about-card__icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path
-                                        d="M50 12.5C66.248 12.5 78.7312 21.7783 86.8937 30.485C91.012 34.878 94.1574 39.254 96.2728 42.5293C97.3329 44.1707 98.1406 45.5487 98.6898 46.5251C98.9643 47.0131 99.1756 47.4027 99.3205 47.6766C99.3928 47.8133 99.4517 47.9208 99.4914 47.998C99.5111 48.0363 99.5245 48.0687 99.5362 48.0916C99.542 48.1031 99.5487 48.1126 99.5524 48.1201L99.5565 48.1283L99.5606 48.1323C99.5613 48.1339 99.5601 48.1366 95.8334 50C99.5601 51.8634 99.5613 51.8661 99.5606 51.8677L99.5565 51.8717L99.5524 51.8799C99.5487 51.8874 99.542 51.8969 99.5362 51.9084C99.5245 51.9313 99.5111 51.9637 99.4914 52.002C99.4517 52.0792 99.3928 52.1867 99.3205 52.3234C99.1756 52.5973 98.9643 52.9869 98.6898 53.4749C98.1406 54.4513 97.3329 55.8293 96.2728 57.4707C94.1574 60.746 91.012 65.122 86.8937 69.515C78.7312 78.2217 66.248 87.5 50 87.5C33.7521 87.5 21.2689 78.2217 13.1063 69.515C8.98802 65.122 5.84264 60.746 3.72722 57.4707C2.66714 55.8293 1.85947 54.4513 1.31023 53.4749C1.0357 52.9869 0.824463 52.5973 0.679531 52.3234C0.607205 52.1867 0.548356 52.0792 0.508633 52.002C0.488971 51.9637 0.475483 51.9313 0.463874 51.9084C0.45805 51.8969 0.45136 51.8874 0.447597 51.8799L0.443528 51.8717L0.439459 51.8677C0.438694 51.8661 0.439893 51.8634 4.16667 50C0.439893 48.1366 0.438694 48.1339 0.439459 48.1323L0.443528 48.1283L0.447597 48.1201C0.45136 48.1126 0.45805 48.1031 0.463874 48.0916C0.475483 48.0687 0.488971 48.0363 0.508633 47.998C0.548356 47.9208 0.607205 47.8133 0.679531 47.6766C0.824463 47.4027 1.0357 47.0131 1.31023 46.5251C1.85947 45.5487 2.66714 44.1707 3.72722 42.5293C5.84264 39.254 8.98802 34.878 13.1063 30.485C21.2689 21.7783 33.7521 12.5 50 12.5ZM50 20.8333C37.0817 20.8333 26.6478 28.222 19.1854 36.1816C15.4922 40.1211 12.6468 44.0797 10.7259 47.054C9.97903 48.2106 9.3784 49.2137 8.92335 50C9.3784 50.7863 9.97903 51.7894 10.7259 52.946C12.6468 55.9203 15.4922 59.8789 19.1854 63.8184C26.6478 71.778 37.0817 79.1667 50 79.1667C62.9184 79.1667 73.3522 71.778 80.8146 63.8184C84.5078 59.8789 87.3532 55.9203 89.2741 52.946C90.0204 51.7903 90.6177 50.7861 91.0726 50C90.6177 49.2139 90.0204 48.2097 89.2741 47.054C87.3532 44.0797 84.5078 40.1211 80.8146 36.1816C73.3522 28.222 62.9184 20.8333 50 20.8333ZM4.16667 50L0.439459 51.8636C-0.147056 50.6906 -0.147056 49.3094 0.439459 48.1364L4.16667 50ZM99.5606 48.1364C100.147 49.3094 100.147 50.6906 99.5606 51.8636L95.8334 50L99.5606 48.1364Z"
+                                        d="M87.5 50C87.5 29.2893 70.7107 12.5 50 12.5C29.2893 12.5 12.5 29.2893 12.5 50C12.5 70.7106 29.2893 87.5 50 87.5C70.7107 87.5 87.5 70.7106 87.5 50ZM95.8334 50C95.8334 75.313 75.3131 95.8333 50 95.8333C24.687 95.8333 4.16669 75.313 4.16669 50C4.16669 24.6869 24.687 4.16663 50 4.16663C75.3131 4.16663 95.8334 24.6869 95.8334 50Z"
                                         fill="black" />
                                     <path
-                                        d="M58.3333 50C58.3333 45.3977 54.6024 41.6667 50 41.6667C45.3976 41.6667 41.6666 45.3977 41.6666 50C41.6666 54.6024 45.3976 58.3334 50 58.3334C54.6024 58.3334 58.3333 54.6024 58.3333 50ZM66.6666 50C66.6666 59.2048 59.2047 66.6667 50 66.6667C40.7952 66.6667 33.3333 59.2048 33.3333 50C33.3333 40.7953 40.7952 33.3334 50 33.3334C59.2047 33.3334 66.6666 40.7953 66.6666 50Z"
+                                        d="M70.8333 50C70.8333 38.4941 61.5059 29.1667 50 29.1667C38.494 29.1667 29.1666 38.4941 29.1666 50C29.1666 61.506 38.494 70.8334 50 70.8334C61.5059 70.8334 70.8333 61.506 70.8333 50ZM79.1666 50C79.1666 66.1083 66.1083 79.1667 50 79.1667C33.8917 79.1667 20.8333 66.1083 20.8333 50C20.8333 33.8917 33.8917 20.8334 50 20.8334C66.1083 20.8334 79.1666 33.8917 79.1666 50Z"
                                         fill="black" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_339_1207">
-                                        <rect width="100" height="100" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                                    <path
+                                        d="M54.1667 50C54.1667 47.6988 52.3012 45.8333 50 45.8333C47.6988 45.8333 45.8333 47.6988 45.8333 50C45.8333 52.3012 47.6988 54.1667 50 54.1667C52.3012 54.1667 54.1667 52.3012 54.1667 50ZM62.5 50C62.5 56.9036 56.9036 62.5 50 62.5C43.0964 62.5 37.5 56.9036 37.5 50C37.5 43.0964 43.0964 37.5 50 37.5C56.9036 37.5 62.5 43.0964 62.5 50Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="about-card__content">
+                                <h4 class="about-card__title">Nossa Missão</h4>
+                                <p class="about-card__text">Facilitar a vida de profissionais da beleza e estética,
+                                    oferecendo liberdade, estrutura completa e um ambiente que inspira profissionalismo,
+                                    conforto e pertencimento.</p>
+                            </div>
                         </div>
-                        <div class="about-card__content">
-                            <h4 class="about-card__title">Nossa Visão</h4>
-                            <p class="about-card__text">Ser referência em coworking de beleza na cidade, promovendo uma
-                                nova forma de trabalhar com mais leveza, acolhimento e profissionalismo.</p>
+                        <div class="about-card">
+                            <div class="about-card__icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_339_1207)">
+                                        <path
+                                            d="M50 12.5C66.248 12.5 78.7312 21.7783 86.8937 30.485C91.012 34.878 94.1574 39.254 96.2728 42.5293C97.3329 44.1707 98.1406 45.5487 98.6898 46.5251C98.9643 47.0131 99.1756 47.4027 99.3205 47.6766C99.3928 47.8133 99.4517 47.9208 99.4914 47.998C99.5111 48.0363 99.5245 48.0687 99.5362 48.0916C99.542 48.1031 99.5487 48.1126 99.5524 48.1201L99.5565 48.1283L99.5606 48.1323C99.5613 48.1339 99.5601 48.1366 95.8334 50C99.5601 51.8634 99.5613 51.8661 99.5606 51.8677L99.5565 51.8717L99.5524 51.8799C99.5487 51.8874 99.542 51.8969 99.5362 51.9084C99.5245 51.9313 99.5111 51.9637 99.4914 52.002C99.4517 52.0792 99.3928 52.1867 99.3205 52.3234C99.1756 52.5973 98.9643 52.9869 98.6898 53.4749C98.1406 54.4513 97.3329 55.8293 96.2728 57.4707C94.1574 60.746 91.012 65.122 86.8937 69.515C78.7312 78.2217 66.248 87.5 50 87.5C33.7521 87.5 21.2689 78.2217 13.1063 69.515C8.98802 65.122 5.84264 60.746 3.72722 57.4707C2.66714 55.8293 1.85947 54.4513 1.31023 53.4749C1.0357 52.9869 0.824463 52.5973 0.679531 52.3234C0.607205 52.1867 0.548356 52.0792 0.508633 52.002C0.488971 51.9637 0.475483 51.9313 0.463874 51.9084C0.45805 51.8969 0.45136 51.8874 0.447597 51.8799L0.443528 51.8717L0.439459 51.8677C0.438694 51.8661 0.439893 51.8634 4.16667 50C0.439893 48.1366 0.438694 48.1339 0.439459 48.1323L0.443528 48.1283L0.447597 48.1201C0.45136 48.1126 0.45805 48.1031 0.463874 48.0916C0.475483 48.0687 0.488971 48.0363 0.508633 47.998C0.548356 47.9208 0.607205 47.8133 0.679531 47.6766C0.824463 47.4027 1.0357 47.0131 1.31023 46.5251C1.85947 45.5487 2.66714 44.1707 3.72722 42.5293C5.84264 39.254 8.98802 34.878 13.1063 30.485C21.2689 21.7783 33.7521 12.5 50 12.5ZM50 20.8333C37.0817 20.8333 26.6478 28.222 19.1854 36.1816C15.4922 40.1211 12.6468 44.0797 10.7259 47.054C9.97903 48.2106 9.3784 49.2137 8.92335 50C9.3784 50.7863 9.97903 51.7894 10.7259 52.946C12.6468 55.9203 15.4922 59.8789 19.1854 63.8184C26.6478 71.778 37.0817 79.1667 50 79.1667C62.9184 79.1667 73.3522 71.778 80.8146 63.8184C84.5078 59.8789 87.3532 55.9203 89.2741 52.946C90.0204 51.7903 90.6177 50.7861 91.0726 50C90.6177 49.2139 90.0204 48.2097 89.2741 47.054C87.3532 44.0797 84.5078 40.1211 80.8146 36.1816C73.3522 28.222 62.9184 20.8333 50 20.8333ZM4.16667 50L0.439459 51.8636C-0.147056 50.6906 -0.147056 49.3094 0.439459 48.1364L4.16667 50ZM99.5606 48.1364C100.147 49.3094 100.147 50.6906 99.5606 51.8636L95.8334 50L99.5606 48.1364Z"
+                                            fill="black" />
+                                        <path
+                                            d="M58.3333 50C58.3333 45.3977 54.6024 41.6667 50 41.6667C45.3976 41.6667 41.6666 45.3977 41.6666 50C41.6666 54.6024 45.3976 58.3334 50 58.3334C54.6024 58.3334 58.3333 54.6024 58.3333 50ZM66.6666 50C66.6666 59.2048 59.2047 66.6667 50 66.6667C40.7952 66.6667 33.3333 59.2048 33.3333 50C33.3333 40.7953 40.7952 33.3334 50 33.3334C59.2047 33.3334 66.6666 40.7953 66.6666 50Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_339_1207">
+                                            <rect width="100" height="100" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="about-card__content">
+                                <h4 class="about-card__title">Nossa Visão</h4>
+                                <p class="about-card__text">Ser referência em coworking de beleza na cidade, promovendo
+                                    uma
+                                    nova forma de trabalhar com mais leveza, acolhimento e profissionalismo.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section> <!-- FIM SOBRE -->
 
-        <section class="features"> <!-- DIFERENÇA -->
-            <div class="container">
-                <div class="features__heading">
-                    <h2>Temos o que você precisa</h2>
-                    <p>Diferenciais que fazem do Muza o lugar perfeito para sua carreira.</p>
+        <section class="features" id="diferenciais"> <!-- DIFERENÇA -->
+            <div class="container features__container">
+                <div class="section__heading">
+                    <h2 class="section__title">Temos o que você precisa</h2>
+                    <p class="section__subtitle">Diferenciais que fazem do Muza o lugar perfeito para sua carreira.</p>
                 </div>
                 <div class="features__group">
                     <ul class="features__cards">
@@ -320,25 +332,25 @@
             </div>
         </section> <!-- FIM DIFERENÇA -->
 
-        <section class="space"> <!-- ESPAÇO -->
-            <div class="container">
-                <div class="space__heading">
-                    <h2>Ambientes pensados para cada necessidade</h2>
-                    <p>Cada detalhe pensado para o seu conforto e produtividade</p>
+        <section class="space" id="estudio"> <!-- ESPAÇO -->
+            <div class="container space__container">
+                <div class="section__heading">
+                    <h2 class="section__title">Ambientes pensados para cada necessidade</h2>
+                    <p class="section__subtitle">Cada detalhe pensado para o seu conforto e produtividade</p>
                 </div>
                 <div class="space__tabs">
                     <nav class="nav__tabs">
-                        <button class="btn__tab active">Sala Privativa</button>
-                        <button class="btn__tab">Estação de Beleza</button>
-                        <button class="btn__tab">Estação de manicure</button>
+                        <button class="btn__tab active" data-tab="1">Sala Privativa</button>
+                        <button class="btn__tab" data-tab="2">Estação de Beleza</button>
+                        <button class="btn__tab" data-tab="3">Estação de manicure</button>
                     </nav>
                     <div class="space__content">
-                        <div class="space__card">
+                        <div class="space__card active" data-tab="1">
                             <img src="./src/assets/images/img-section-space-01.jpg" alt="" class="space__image"
                                 draggable="false">
                             <div class="space__card-content">
                                 <div class="space__header">
-                                    <h3 class="space__card-title">Estações de Beleza</h3>
+                                    <h3 class="space__card-title">Sala Privativa</h3>
                                     <p class="space__card-subtitle">Tudo para você brilhar na sua arte</p>
                                 </div>
                                 <div class="space__description">
@@ -421,12 +433,12 @@
                                     </div>
                                 </div>
                                 <div class="space__cta">
-                                    <a href="#" class="btn btn--primary">Quero conhecer este espaço</a>
+                                    <a href="https://wa.me/c/5522992698605" target="_blank" class="btn btn--primary">Quero conhecer este espaço</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="space__card">
+                        <div class="space__card" data-tab="2">
                             <img src="./src/assets/images/img-section-space-01.jpg" alt="" class="space__image"
                                 draggable="false">
                             <div class="space__card-content">
@@ -514,22 +526,20 @@
                                     </div>
                                 </div>
                                 <div class="space__cta">
-                                    <a href="#" class="btn btn--primary">Quero conhecer este espaço</a>
+                                    <a href="https://wa.me/c/5522992698605" target="_blank" class="btn btn--primary">Quero conhecer este espaço</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="space__card">
-                            <img src="./src/assets/images/img-section-space-01.jpg" alt="" class="space__image"
-                                draggable="false">
+                        <div class="space__card" data-tab="3">
+                            <img src="./src/assets/images/img-section-space-01.jpg" alt="" class="space__image" draggable="false">
                             <div class="space__card-content">
                                 <div class="space__header">
-                                    <h3 class="space__card-title">Estações de Beleza</h3>
+                                    <h3 class="space__card-title">Estações de manicure</h3>
                                     <p class="space__card-subtitle">Tudo para você brilhar na sua arte</p>
                                 </div>
                                 <div class="space__description">
-                                    <p>Espaço completo para hair stylists, maquiadores e designers de sobrancelhas com
-                                        toda infraestrutura necessária e conforto para suas clientes.</p>
+                                    <p>Espaço completo para hair stylists, maquiadores e designers de sobrancelhas com toda infraestrutura necessária e conforto para suas clientes.</p>
                                 </div>
                                 <div class="space__features">
                                     <div class="space__equipment">
@@ -607,7 +617,7 @@
                                     </div>
                                 </div>
                                 <div class="space__cta">
-                                    <a href="#" class="btn btn--primary">Quero conhecer este espaço</a>
+                                    <a href="https://wa.me/c/5522992698605" target="_blank" class="btn btn--primary">Quero conhecer este espaço</a>
                                 </div>
                             </div>
                         </div>
@@ -616,11 +626,11 @@
             </div>
         </section> <!-- FIM ESPAÇO -->
 
-        <section class="steps"> <!-- COMO FUNCIONA -->
-            <div class="container">
-                <div class="steps__heading">
-                    <h2 class="steps__title">Trabalhar no Muza é simples assim</h2>
-                    <p class="steps__subtitle">Simplicidade e praticidade em 4 passos</p>
+        <section class="steps" id="aluguel"> <!-- COMO FUNCIONA -->
+            <div class="container steps__container">
+                <div class="section__heading">
+                    <h2 class="section__title">Trabalhar no Muza é simples assim</h2>
+                    <p class="section__subtitle">Simplicidade e praticidade em 4 passos</p>
                 </div>
                 <div class="steps__list">
                     <div class="steps__item steps__item--left">
@@ -673,19 +683,20 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <p>Só paga pelo tempo que usar. É liberdade de verdade, com conforto, praticidade é o que o Muza
+                <div class="steps__cta">
+                    <p class="steps__obs">Só paga pelo tempo que usar. É liberdade de verdade, com conforto, praticidade
+                        é o que o Muza
                         oferece.</p>
-                    <a href="#" class="btn btn--primary">Agendar meu horário</a>
+                    <a href="https://wa.me/5522992698605" target="_blank" class="btn btn--primary">Agendar meu horário</a>
                 </div>
             </div>
         </section> <!-- FIM COMO FUNCIONA -->
 
-        <section class="plans"> <!-- PREÇOS -->
-            <div class="container">
-                <div class="plans__heading">
-                    <h2 class="plans__title">Planos Flexíveis</h2>
-                    <p class="plans__subtitle">Escolha o que melhor se adapta à sua rotina de trabalho.</p>
+        <section class="plans" id="planos"> <!-- PREÇOS -->
+            <div class="container plans__container">
+                <div class="section__heading">
+                    <h2 class="section__title">Planos Flexíveis</h2>
+                    <p class="section__subtitle">Escolha o que melhor se adapta à sua rotina de trabalho.</p>
                 </div>
                 <div class="plans__content">
                     <div class="plans__tabs">
@@ -787,85 +798,91 @@
                             <p class="plans__obs">* Os valores são por profissional e incluem água, café, internet e
                                 serviço de recepção.
                             </p>
-                            <a href="#" class="btn btn--primary">Quero Agendar</a>
+                            <a href="https://wa.me/5522992698605" target="_blank" class="btn btn--primary">Quero Agendar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section> <!-- FIM PREÇOS -->
 
-        <section class="testimonials"> <!-- DEPOIMENTOS -->
-            <div class="container">
+        <section class="testimonials" id="depoimentos"> <!-- DEPOIMENTOS -->
+            <div class="container testimonials__container">
                 <div class="section__heading">
                     <h2 class="section__title">O que dizem sobre nós</h2>
                     <p class="section__subtitle">Profissionais que já transformaram sua experiência de trabalho.</p>
                 </div>
 
-                <div class="testimonials__cards">
-                    <div class="testimonials__card">
-                        <div class="testimonials-card__heading">
-                            <h5 class="testimonials-card__title">Juliana Mendes</h5>
-                            <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
+                <div class="testimonials__content">
+                    <div class="testimonials__cards">
+                        <div class="testimonials__card">
+                            <div class="testimonials-card__heading">
+                                <h5 class="testimonials-card__title">Juliana Mendes</h5>
+                                <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
+                            </div>
+                            <div class="testimonials-card__rating">
+                                <!-- Aqui vai avaliação em estrelas -->
+                            </div>
+                            <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor.
+                                Foi a
+                                melhor decisão para elevar minha
+                                marca pessoal no mercado."</p>
                         </div>
-                        <div class="testimonials-card__rating">
-                            <!-- Aqui vai avaliação em estrelas -->
+                        <div class="testimonials__card">
+                            <div class="testimonials-card__heading">
+                                <h5 class="testimonials-card__title">Juliana Mendes</h5>
+                                <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
+                            </div>
+                            <div class="testimonials-card__rating">
+                                <!-- Aqui vai avaliação em estrelas -->
+                            </div>
+                            <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor.
+                                Foi a
+                                melhor decisão para elevar minha
+                                marca pessoal no mercado."</p>
                         </div>
-                        <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor. Foi a
-                            melhor decisão para elevar minha
-                            marca pessoal no mercado."</p>
+                        <div class="testimonials__card">
+                            <div class="testimonials-card__heading">
+                                <h5 class="testimonials-card__title">Juliana Mendes</h5>
+                                <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
+                            </div>
+                            <div class="testimonials-card__rating">
+                                <!-- Aqui vai avaliação em estrelas -->
+                            </div>
+                            <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor.
+                                Foi a
+                                melhor decisão para elevar minha."</p>
+                        </div>
                     </div>
-                    <div class="testimonials__card">
-                        <div class="testimonials-card__heading">
-                            <h5 class="testimonials-card__title">Juliana Mendes</h5>
-                            <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
-                        </div>
-                        <div class="testimonials-card__rating">
-                            <!-- Aqui vai avaliação em estrelas -->
-                        </div>
-                        <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor. Foi a
-                            melhor decisão para elevar minha
-                            marca pessoal no mercado."</p>
+                    <div class="slider-nav">
+                        <button class="slider-nav__btn slider-nav__btn--prev">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19 11C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H19Z"
+                                    fill="black" />
+                                <path
+                                    d="M11.293 4.29302C11.6835 3.90249 12.3165 3.90249 12.707 4.29302C13.0975 4.68354 13.0975 5.31655 12.707 5.70708L6.41405 12L12.707 18.293L12.7754 18.3692C13.0957 18.762 13.0731 19.341 12.707 19.7071C12.3409 20.0732 11.7619 20.0958 11.3691 19.7754L11.293 19.7071L4.29295 12.7071C3.90243 12.3166 3.90243 11.6835 4.29295 11.293L11.293 4.29302Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                        <button class="slider-nav__btn slider-nav__btn--prev">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19 11C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H19Z"
+                                    fill="black" />
+                                <path
+                                    d="M11.293 4.29302C11.6835 3.90249 12.3165 3.90249 12.707 4.29302L19.707 11.293C20.0975 11.6835 20.0975 12.3166 19.707 12.7071L12.707 19.7071C12.3165 20.0976 11.6835 20.0976 11.293 19.7071C10.9024 19.3166 10.9024 18.6835 11.293 18.293L17.5859 12L11.293 5.70708C10.9024 5.31655 10.9024 4.68354 11.293 4.29302Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
                     </div>
-                    <div class="testimonials__card">
-                        <div class="testimonials-card__heading">
-                            <h5 class="testimonials-card__title">Juliana Mendes</h5>
-                            <p class="testimonials-card__subtitle">Designer de Sobrancelhas</p>
-                        </div>
-                        <div class="testimonials-card__rating">
-                            <!-- Aqui vai avaliação em estrelas -->
-                        </div>
-                        <p class="testimonials-card__text">"Meus clientes adoram o ambiente elegante e acolhedor. Foi a
-                            melhor decisão para elevar minha."</p>
-                    </div>
-                </div>
-
-                <div class="slider-nav">
-                    <button class="slider-nav__btn slider-nav__btn--prev">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M19 11C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H19Z"
-                                fill="black" />
-                            <path
-                                d="M11.293 4.29302C11.6835 3.90249 12.3165 3.90249 12.707 4.29302C13.0975 4.68354 13.0975 5.31655 12.707 5.70708L6.41405 12L12.707 18.293L12.7754 18.3692C13.0957 18.762 13.0731 19.341 12.707 19.7071C12.3409 20.0732 11.7619 20.0958 11.3691 19.7754L11.293 19.7071L4.29295 12.7071C3.90243 12.3166 3.90243 11.6835 4.29295 11.293L11.293 4.29302Z"
-                                fill="black" />
-                        </svg>
-                    </button>
-                    <button class="slider-nav__btn slider-nav__btn--prev">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M19 11C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H19Z"
-                                fill="black" />
-                            <path
-                                d="M11.293 4.29302C11.6835 3.90249 12.3165 3.90249 12.707 4.29302L19.707 11.293C20.0975 11.6835 20.0975 12.3166 19.707 12.7071L12.707 19.7071C12.3165 20.0976 11.6835 20.0976 11.293 19.7071C10.9024 19.3166 10.9024 18.6835 11.293 18.293L17.5859 12L11.293 5.70708C10.9024 5.31655 10.9024 4.68354 11.293 4.29302Z"
-                                fill="black" />
-                        </svg>
-                    </button>
                 </div>
             </div>
         </section> <!-- FIM DEPOIMENTOS -->
 
-        <section class="faq"> <!-- FAQ -->
-            <div class="container">
+        <section class="faq" id="faq"> <!-- FAQ -->
+            <div class="container faq__container">
                 <div class="section__heading">
                     <h2 class="section__title">Perguntas Frequentes</h2>
                     <p class="section__subtitle">Tudo que você precisa saber sobre o Muza</p>
@@ -940,11 +957,12 @@
             </div>
         </section> <!-- FIM FAQ -->
 
-        <section class="contact"> <!-- CONTATO -->
-            <div class="container">
+        <section class="contact" id="contato"> <!-- CONTATO -->
+            <div class="container contact__container">
                 <div class="section__heading">
                     <h2 class="section__title">Vamos agendar uma visita?</h2>
-                    <p class="section__subtitle">Conheça o Muza e descubra como podemos transformar sua experiência profissional</p>
+                    <p class="section__subtitle">Conheça o Muza e descubra como podemos transformar sua experiência
+                        profissional</p>
                 </div>
                 <div class="contact__content">
                     <div class="contact__info">
@@ -989,7 +1007,7 @@
                                 </span>
                                 <div class="contact__info-text">
                                     <p class="contact__info-label">Whatsapp</p>
-                                    <a href="#" class="contact__info-value">(22) 99269-8605</a>
+                                    <a href="https://wa.me/5522992698605" target="_blank" class="contact__info-value">(22) 99269-8605</a>
                                 </div>
                             </div>
 
@@ -1017,7 +1035,7 @@
                                 </span>
                                 <div class="contact__info-text">
                                     <p class="contact__info-label">Instagram</p>
-                                    <a href="#" class="contact__info-value">@muzacoworking</a>
+                                    <a href="https://www.instagram.com/muzacoworking" target="_blank" class="contact__info-value">@muzacoworking</a>
                                 </div>
                             </div>
 
@@ -1035,7 +1053,7 @@
                                 </span>
                                 <div class="contact__info-text">
                                     <p class="contact__info-label">E-mail</p>
-                                    <a href="#" class="contact__info-value">muzacoworking@gmail.com</a>
+                                    <a href="mailto:muzacoworking@gmail.com" target="_blank" class="contact__info-value">muzacoworking@gmail.com</a>
                                 </div>
                             </div>
 
@@ -1053,7 +1071,8 @@
                                 </span>
                                 <div class="contact__info-text">
                                     <p class="contact__info-label">Endereço</p>
-                                    <a href="#" class="contact__info-value">Av. Dr. Gilberto Cardoso, 92 -  Campos dos Goytacazes - RJ</a>
+                                    <a href="https://maps.app.goo.gl/hF3aYvX2npAzxdGn6" target="_blank" class="contact__info-value">Av. Dr. Gilberto Cardoso, 92 - Campos dos
+                                        Goytacazes - RJ</a>
                                 </div>
                             </div>
                         </div>
@@ -1068,7 +1087,8 @@
                             </div>
                             <div class="contact__form-group">
                                 <label for="WhatsApp" class="contact__form-label">Whatsapp</label>
-                                <input type="tel" id="WhatsApp" pattern="\d{10,11}" class="contact__form-input required>
+                                <input type="tel" id="WhatsApp" pattern="\d{10,11}" class="contact__form-input"
+                                    required>
                             </div>
                             <div class="contact__form-group">
                                 <label for="service" class="contact__form-label">Serviço de interesse</label>
@@ -1085,7 +1105,7 @@
                                 <label for="obs" class="contact__form-label">Mensagem Opcional</label>
                                 <textarea name="obs" id="obs" class="contact__form-textarea"></textarea>
                             </div>
-                            <div>
+                            <div class="contact__form-group">
                                 <button class="btn btn--primary">Enviar solicitação</button>
                             </div>
                         </form>
@@ -1097,31 +1117,40 @@
 
     <footer class="footer"> <!-- FOOTER -->
         <div class="container">
-            <div class="footer__header">
-                <img src="./src/assets/images/logo.svg" alt="Logo Muza Coworking" draggable="false">
-                <p>O primeiro coworking de beleza de Campos dos Goytacazes. Espaço premium para profissionais que
-                    valorizam conforto e elegância.</p>
-            </div>
-            <div>
-                <p>Navegação</p>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Espaço</a></li>
-                    <li><a href="#">Planos</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Como Funciona</a></li>
-                    <li><a href="#">Depoimentos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </div>
-            <div>
-                <p>Informações</p>
-                <div>
-                    <a href="#">Av. Dr. Gilberto Cardoso, 92 - Parque Salo Brand - Campos dos Goytacazes - RJ</a>
-                    <p>Segunda a Domingo - 07h às 22h</p>
-                    <a href="#">muzacoworking@gmail.com</a>
+            <div class="footer__container">
+                <div class="footer__header">
+                    <img src="./src/assets/images/logo.svg" alt="Logo Muza Coworking" draggable="false">
+                    <p>O 1º coworking de beleza de Campos dos Goytacazes. Espaço premium para profissionais que
+                        valorizam conforto e elegância.</p>
                 </div>
+                <div class="nav__footer">
+                    <p class="footer__subtitle">Navegação</p>
+                    <ul class="nav__footer-list">
+                        <div class="nav__footer-group">
+                            <li><a href="#home" class="nav__link">Home</a></li>
+                            <li><a href="#estudio" class="nav__link">Estúdio</a></li>
+                            <li><a href="#planos" class="nav__link">Planos</a></li>
+                            <li><a href="#faq" class="nav__link">FAQ</a></li>
+                        </div>
+                        <div class="nav__footer-group">
+                            <li><a href="#muza" class="nav__link">Muza</a></li>
+                            <li><a href="#aluguel" class="nav__link">Aluguel</a></li>
+                            <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+                            <li><a href="#contato" class="nav__link">Contato</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__subtitle">Informações</p>
+                    <div class="footer__links">
+                        <a href="https://maps.app.goo.gl/hF3aYvX2npAzxdGn6" target="_blank">Av. Dr. Gilberto Cardoso, 92 - Parque Salo Brand - Campos dos Goytacazes - RJ</a>
+                        <p>Segunda a Domingo - 07h às 22h</p>
+                        <a href="mailto:muzacoworking@gmail.com" target="_blank">muzacoworking@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="copyright">© 2025 Muza Coworking de Beleza. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer> <!-- FIM FOOTER -->

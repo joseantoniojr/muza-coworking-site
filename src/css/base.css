@@ -1,60 +1,59 @@
 @charset "UTF-8";
 
-@import url('./fonts.css');
+@import url("./fonts.css");
 
 body {
-    background-color: var(--color-background);
-    color: var(--text-color-base);
-    font-family: var(--font-primary);
-    font-size: var(--font-size-base);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    height: 100dvh;
+  background-color: var(--color-background);
+  color: var(--text-color-base);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    line-height: var(--line-height-tight);
+  line-height: var(--line-height-tight);
 }
 
 h1,
-h2 { 
-    font-family: var(--font-secondary);  
+h2 {
+  font-family: var(--font-secondary);
 }
 
 h1 {
-    color: var(--text-color-title);
-    font-size: var(--font-size-title);
-    font-weight: var(--font-weight-medium);
+  color: var(--text-color-title);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-medium);
 }
 
 h2 {
-    font-size: var(--font-size-heading-2);
-    color: var(--text-color-subtitle);
-    font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-heading-2);
+  color: var(--text-color-subtitle);
+  font-weight: var(--font-weight-bold);
 }
 
 h3,
 h4 {
-    color: var(--text-color-subtitle);
-    font-weight: var(--font-weight-medium);
+  color: var(--text-color-subtitle);
+  font-weight: var(--font-weight-medium);
 }
 
 h3 {
-    font-size: var(--font-size-heading-3);
+  font-size: var(--font-size-heading-3);
 }
 
 h4 {
-    font-size: var(--font-size-heading-4);
+  font-size: var(--font-size-heading-4);
 }
 
-img {
-    user-select: none;
+a:hover{
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
 }
 
 ::selection {

@@ -2,49 +2,53 @@
 
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
-    scroll-behavior:smooth;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 html,
-body{
-    height: 100vh;
-    height: 100dvh;
+body {
+  height: 100vh;
+  height: 100dvh;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
 img,
-svg{
-    display: block;
-    max-width: 100%;
-    height: auto;
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  user-select: none;
 }
 
-ul, 
+ul,
 ol,
-summary{
-    list-style: none;
+summary {
+  list-style: none;
 }
 
-p{
-    overflow-wrap: break-word;
+p {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
